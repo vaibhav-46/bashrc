@@ -36,5 +36,6 @@ esac
 # Cool colors for Man Pages
 alias man="TERMINFO=~/.terminfo TERM=mostlike LESS=C PAGER=less man"
 
+#For more information see http://nion.modprobe.de/blog/archives/569-colored-manpages.html
 
 
