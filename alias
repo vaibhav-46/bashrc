@@ -1,0 +1,59 @@
+# Cute shell shortcuts
+alias ls='ls --sort=extension --color=auto'
+alias ll='ls -lh'
+alias lal='ls -alh'
+alias la='ls -A'
+alias pms='sudo pm-suspend'
+alias psg='ps -A | grep'
+alias grep='grep --color -n'
+alias install='sudo make install'
+alias l='ls -CF'
+alias g='gvim '
+alias sv="sudo vim "
+
+# This one is to take care of make
+# Give me a nice, distinguishable make output
+alias make='clear && make'
+alias m='make'
+
+
+# Some more, to avoid mistakes
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+
+# SSH Alias
+alias dcf='ssh avaibhav@10.6.16.16'
+alias dcf1='ssh avaibhav@10.6.16.10'
+alias dcf2='ssh avaibhav@10.6.16.23'
+alias dcfmail='ssh avaibhav@10.6.5.215'
+
+
+
+
+
+# Git Commands
+# Add and Commit are used as functions
+alias gpush='git push origin master'
+alias gpull='git pull'
+alias gstatus='git status'
+alias gdiff='git diff'
+alias gr='git reflog'
+alias gls='git ls-files'
+
+
+
+# Acad aliases 
+alias cs2100='cd /media/acads_/cs2100'
+alias cs2300='cd /media/acads_/cs2300'
+alias cs2110='cd /media/acads_/cs2110'
+alias cs2310='cd /media/acads_/cs2310'
+alias down='cd /home/vaibhav/Downloads'
+
+
+
+# Shortcut to test quick changes to bashrc
+alias reload='source ~/.bashrc'
+
+
